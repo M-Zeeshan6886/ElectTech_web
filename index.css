@@ -1,6 +1,126 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-    
+/* @media only screen and (max-width: 600px) {
+    font-size: 2.5rem;
+  } */
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.header_wrapper_section {
+  position: relative;
+  height: 100vh;
+  background-image: url("./Assets/headerBG.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .header_wrapper_section img {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+} */
+.top_btn {
+  padding: 2rem 0rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.banner{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    position: relative;
+}
+
+.header_section_left {
+  /* background-color: aqua; */
+}
+.header_section_left img {
+  width: 485px;
+  height: 171px;
+  flex-shrink: 0;
+}
+.header_section_left p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 127.5%; /* 30.6px */
+  margin-top: 2rem;
+}
+
+.about_wraper_section{
+  padding: 2rem 0rem;
+  background-image: url("./Assets/aboutBg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container h1{
+  color: #3CA6FF;
+font-family: Oswald;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 115%; /* 55.2px */
+letter-spacing: 2.88px;
+text-align: center;
+}
+
+.about_container_left{
+margin-top: 5rem;
+}
+.about_container_left_top{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  
+}
+.about_container_left_top h1{
+  margin-left: 2rem;
+}
+
+.about_container_left_bottom{
+  margin-top: 3rem;
+
+}
+.about_container_left_bottom p{
+  color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* .right_col img{
+margin-top: 5rem;
+} */
+
+
+.overview_wrapper_section{
+  padding: 3rem 0rem;
+  background-image: url("./Assets/aboutBg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading{
+  display: flex;
+justify-content: center;
+padding: 1rem 0rem;
+/* margin-top:5rem ; */
+}
+
+.over-left{
+  display: flex;
+  justify-content: space-evenly;
+}
+.over-right{
+  display: flex;
+  justify-content: space-evenly;
 }
